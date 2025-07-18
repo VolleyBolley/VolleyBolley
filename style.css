@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #53A8A1;
+  font-family: 'Arial', sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.container {
+  margin-top: 5vh;
+  flex-grow: 1;
+}
+
+.logo {
+  max-width: 300px;
+  height: auto;
+  margin-top: 40px;
+}
+
+.download-button {
+  display: inline-block;
+  margin-top: 40px;
+  padding: 14px 28px;
+  background-color: #E6C953;
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 16px;
+}
+
+footer {
+  padding: 20px;
+  font-size: 14px;
+  background: none;
+}
+
+footer a {
+  color: white;
+  text-decoration: underline;
+}
